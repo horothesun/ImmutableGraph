@@ -13,6 +13,6 @@ script:
 #- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ImmutableGraph.xcworkspace -scheme ImmutableGraph-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 #- pod lib lint
 script:
-  - xcodebuild -scheme ImmutableGraph-Example -workspace Example/ImmutableGraph.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11' build test
+  - xcodebuild -scheme ImmutableGraph-Example -workspace Example/ImmutableGraph.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11.0' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
