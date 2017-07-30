@@ -6,9 +6,9 @@
 [![License](https://img.shields.io/cocoapods/l/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
 [![Platform](https://img.shields.io/cocoapods/p/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
 
-## Example
+<!--## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.-->
 
 ## Requirements
 
@@ -25,7 +25,7 @@ pod "ImmutableGraph"
 
 ## Author
 
-horothesun, horothesun@gmail.com
+Nicola Di Pol, horothesun@gmail.com
 
 
 ## License
