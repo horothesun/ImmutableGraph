@@ -1,0 +1,6 @@
+framework module ImmutableGraph {
+  umbrella header "ImmutableGraph-umbrella.h"
+
+  export *
+  module * { export * }
+}

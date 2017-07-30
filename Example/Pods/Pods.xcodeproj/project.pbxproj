@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61C60B63E08E40565B9CDE5E2476DBBA /* ImmutableGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 902E770BB5F2633B89D5B33A9573C1D5 /* ImmutableGraph-dummy.m */; };
+		6DE82A9D81AA907155F683D7DC180070 /* Pods-ImmutableGraph_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BDE47DC9F2737AAF6FBE531268F421 /* Pods-ImmutableGraph_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A872884C69F766EDFD26F2E103A89BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B40B8D8D22673D897DC632D2EE7633CD /* ImmutableGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9989843FFA59BCFAF71B8C97C4AB5DEA /* ImmutableGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62479DC57C68048047651E2B730AE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CAC29E50FB6EDC65C8AC324121B5D31F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCF19ED3A052BB4AAFFCA552ED2C07 /* ReplaceMe.swift */; };
+		CC97A981F92CC9CCCCC6E2C4EC0B4123 /* Pods-ImmutableGraph_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB64A58D203AE031ABEBD5E057410AC3 /* Pods-ImmutableGraph_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA2BD86C8C63B95DDE27D7D8DD6821F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6738703EF2B84C4E3E82E15A453EAF9;
+			remoteInfo = ImmutableGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3B60107DD5BDCF5D9B42D410E7C291 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC74F7D1A018E0A5C43950A3E8346EB /* Pods-ImmutableGraph_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImmutableGraph_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12BDE47DC9F2737AAF6FBE531268F421 /* Pods-ImmutableGraph_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImmutableGraph_Tests-umbrella.h"; sourceTree = "<group>"; };
+		170CB63FE5725713AFF96D1C32ECB971 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BBE7B51DE3544F44B0E0A3C931A700 /* Pods-ImmutableGraph_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImmutableGraph_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		399920B802CAD130D64D0B35AB932847 /* ImmutableGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImmutableGraph.modulemap; sourceTree = "<group>"; };
+		47B3A5D8E08E2AF80F7D912E0F637DCE /* Pods-ImmutableGraph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImmutableGraph_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		482A242AE91AE06F143D54AA12DBC68E /* ImmutableGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImmutableGraph.framework; path = ImmutableGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491121B6A3DE79CDE6258ED31CB0112E /* Pods-ImmutableGraph_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImmutableGraph_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FCCF19ED3A052BB4AAFFCA552ED2C07 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		902E770BB5F2633B89D5B33A9573C1D5 /* ImmutableGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImmutableGraph-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9989843FFA59BCFAF71B8C97C4AB5DEA /* ImmutableGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImmutableGraph-umbrella.h"; sourceTree = "<group>"; };
+		9B4658D495D09D9930E7BE789FC975CF /* ImmutableGraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImmutableGraph.xcconfig; sourceTree = "<group>"; };
+		B6ADBCD5C084555D75664067069C8846 /* Pods-ImmutableGraph_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImmutableGraph_Tests.modulemap"; sourceTree = "<group>"; };
+		C40FF340938DF9309AC0DDB60D823B0D /* Pods-ImmutableGraph_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImmutableGraph_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5F0E0171883C181597C54CF9BD31290 /* Pods_ImmutableGraph_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImmutableGraph_Tests.framework; path = "Pods-ImmutableGraph_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E216970134126858DA5461132EBF5B70 /* Pods-ImmutableGraph_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImmutableGraph_Tests-resources.sh"; sourceTree = "<group>"; };
+		EB64A58D203AE031ABEBD5E057410AC3 /* Pods-ImmutableGraph_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImmutableGraph_Tests-dummy.m"; sourceTree = "<group>"; };
+		F68574E1A2D0D59E3184776C98695D1F /* ImmutableGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImmutableGraph-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D666CB6FE0F56A6DCE601E7CC551AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62479DC57C68048047651E2B730AE07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA6CB5535BF3CBE2C5C05A2D3886AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A872884C69F766EDFD26F2E103A89BB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A17EDC11F5F2130CB41E68968DFC31E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCF19ED3A052BB4AAFFCA552ED2C07 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		33E71DF16970A6FFB4D378C589CAEA78 /* Pods-ImmutableGraph_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B3B60107DD5BDCF5D9B42D410E7C291 /* Info.plist */,
+				B6ADBCD5C084555D75664067069C8846 /* Pods-ImmutableGraph_Tests.modulemap */,
+				0CC74F7D1A018E0A5C43950A3E8346EB /* Pods-ImmutableGraph_Tests-acknowledgements.markdown */,
+				C40FF340938DF9309AC0DDB60D823B0D /* Pods-ImmutableGraph_Tests-acknowledgements.plist */,
+				EB64A58D203AE031ABEBD5E057410AC3 /* Pods-ImmutableGraph_Tests-dummy.m */,
+				491121B6A3DE79CDE6258ED31CB0112E /* Pods-ImmutableGraph_Tests-frameworks.sh */,
+				E216970134126858DA5461132EBF5B70 /* Pods-ImmutableGraph_Tests-resources.sh */,
+				12BDE47DC9F2737AAF6FBE531268F421 /* Pods-ImmutableGraph_Tests-umbrella.h */,
+				34BBE7B51DE3544F44B0E0A3C931A700 /* Pods-ImmutableGraph_Tests.debug.xcconfig */,
+				47B3A5D8E08E2AF80F7D912E0F637DCE /* Pods-ImmutableGraph_Tests.release.xcconfig */,
+			);
+			name = "Pods-ImmutableGraph_Tests";
+			path = "Target Support Files/Pods-ImmutableGraph_Tests";
+			sourceTree = "<group>";
+		};
+		75C6C467458072B5E95067847EEE726F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482A242AE91AE06F143D54AA12DBC68E /* ImmutableGraph.framework */,
+				C5F0E0171883C181597C54CF9BD31290 /* Pods_ImmutableGraph_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				97365EAC9EE825F7EAC9460036A6B3CD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				75C6C467458072B5E95067847EEE726F /* Products */,
+				F55C36D5173A167212B9D1BC8AB11B45 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		944051EA0DC14E3734979F63606FD5FD /* ImmutableGraph */ = {
+			isa = PBXGroup;
+			children = (
+				2A17EDC11F5F2130CB41E68968DFC31E /* Classes */,
+			);
+			name = ImmutableGraph;
+			path = ImmutableGraph;
+			sourceTree = "<group>";
+		};
+		97365EAC9EE825F7EAC9460036A6B3CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E47FD752355E64CD4A9D76BDE7EC2373 /* ImmutableGraph */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4F448DE34B4BCEB56D5F6DA4CBE08C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				399920B802CAD130D64D0B35AB932847 /* ImmutableGraph.modulemap */,
+				9B4658D495D09D9930E7BE789FC975CF /* ImmutableGraph.xcconfig */,
+				902E770BB5F2633B89D5B33A9573C1D5 /* ImmutableGraph-dummy.m */,
+				F68574E1A2D0D59E3184776C98695D1F /* ImmutableGraph-prefix.pch */,
+				9989843FFA59BCFAF71B8C97C4AB5DEA /* ImmutableGraph-umbrella.h */,
+				170CB63FE5725713AFF96D1C32ECB971 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImmutableGraph";
+			sourceTree = "<group>";
+		};
+		E47FD752355E64CD4A9D76BDE7EC2373 /* ImmutableGraph */ = {
+			isa = PBXGroup;
+			children = (
+				944051EA0DC14E3734979F63606FD5FD /* ImmutableGraph */,
+				D4F448DE34B4BCEB56D5F6DA4CBE08C1 /* Support Files */,
+			);
+			name = ImmutableGraph;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F55C36D5173A167212B9D1BC8AB11B45 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E71DF16970A6FFB4D378C589CAEA78 /* Pods-ImmutableGraph_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C1BEDAF4B06BAA0A6BEA19FA342D9A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40B8D8D22673D897DC632D2EE7633CD /* ImmutableGraph-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAB28175B5477A3FBDC1440D34F71B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE82A9D81AA907155F683D7DC180070 /* Pods-ImmutableGraph_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C6738703EF2B84C4E3E82E15A453EAF9 /* ImmutableGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD289FEAEB8437CD55D84C5C35345F1 /* Build configuration list for PBXNativeTarget "ImmutableGraph" */;
+			buildPhases = (
+				6D29C4B84BF12D12343ABBAF2B221AEC /* Sources */,
+				CFA6CB5535BF3CBE2C5C05A2D3886AE2 /* Frameworks */,
+				1C1BEDAF4B06BAA0A6BEA19FA342D9A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImmutableGraph;
+			productName = ImmutableGraph;
+			productReference = 482A242AE91AE06F143D54AA12DBC68E /* ImmutableGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFEFFBF81AE82A99207885B867C3B90A /* Pods-ImmutableGraph_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D304DA5B9655274711D2DEA0C60A9F /* Build configuration list for PBXNativeTarget "Pods-ImmutableGraph_Tests" */;
+			buildPhases = (
+				7BC0E91753FB1682D9602B1F79217ADA /* Sources */,
+				17D666CB6FE0F56A6DCE601E7CC551AD /* Frameworks */,
+				FDAB28175B5477A3FBDC1440D34F71B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585C039F4E86F1DD020161DEC3856B41 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImmutableGraph_Tests";
+			productName = "Pods-ImmutableGraph_Tests";
+			productReference = C5F0E0171883C181597C54CF9BD31290 /* Pods_ImmutableGraph_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 75C6C467458072B5E95067847EEE726F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6738703EF2B84C4E3E82E15A453EAF9 /* ImmutableGraph */,
+				CFEFFBF81AE82A99207885B867C3B90A /* Pods-ImmutableGraph_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D29C4B84BF12D12343ABBAF2B221AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C60B63E08E40565B9CDE5E2476DBBA /* ImmutableGraph-dummy.m in Sources */,
+				CAC29E50FB6EDC65C8AC324121B5D31F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC0E91753FB1682D9602B1F79217ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC97A981F92CC9CCCCC6E2C4EC0B4123 /* Pods-ImmutableGraph_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585C039F4E86F1DD020161DEC3856B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImmutableGraph;
+			target = C6738703EF2B84C4E3E82E15A453EAF9 /* ImmutableGraph */;
+			targetProxy = 1FA2BD86C8C63B95DDE27D7D8DD6821F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		514FE12EE2E1642A25FF91F09764FA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4658D495D09D9930E7BE789FC975CF /* ImmutableGraph.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImmutableGraph/ImmutableGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImmutableGraph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImmutableGraph/ImmutableGraph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ImmutableGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55A91E02ADDEAC8252499886EE9DAFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4658D495D09D9930E7BE789FC975CF /* ImmutableGraph.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImmutableGraph/ImmutableGraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImmutableGraph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImmutableGraph/ImmutableGraph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ImmutableGraph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9047080690C528E3096FE53A1FC9C00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B3A5D8E08E2AF80F7D912E0F637DCE /* Pods-ImmutableGraph_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImmutableGraph_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImmutableGraph_Tests/Pods-ImmutableGraph_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImmutableGraph_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C233E1A39496ABB03EB867BF9D022308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BBE7B51DE3544F44B0E0A3C931A700 /* Pods-ImmutableGraph_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ImmutableGraph_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImmutableGraph_Tests/Pods-ImmutableGraph_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImmutableGraph_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D304DA5B9655274711D2DEA0C60A9F /* Build configuration list for PBXNativeTarget "Pods-ImmutableGraph_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C233E1A39496ABB03EB867BF9D022308 /* Debug */,
+				9047080690C528E3096FE53A1FC9C00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD289FEAEB8437CD55D84C5C35345F1 /* Build configuration list for PBXNativeTarget "ImmutableGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A91E02ADDEAC8252499886EE9DAFFD /* Debug */,
+				514FE12EE2E1642A25FF91F09764FA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ImmutableGraph",
+  "version": "0.1.0",
+  "summary": "A short description of ImmutableGraph.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/horothesun/ImmutableGraph",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "horothesun": "horothesun@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/horothesun/ImmutableGraph.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImmutableGraph/Classes/**/*"
+}
