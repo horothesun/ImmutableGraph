@@ -10,9 +10,17 @@
 		61C60B63E08E40565B9CDE5E2476DBBA /* ImmutableGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 902E770BB5F2633B89D5B33A9573C1D5 /* ImmutableGraph-dummy.m */; };
 		6DE82A9D81AA907155F683D7DC180070 /* Pods-ImmutableGraph_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BDE47DC9F2737AAF6FBE531268F421 /* Pods-ImmutableGraph_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A872884C69F766EDFD26F2E103A89BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B3D473B51F2E88DA00832C54 /* Array+ToSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473B21F2E88DA00832C54 /* Array+ToSet.swift */; };
+		B3D473B71F2E88DA00832C54 /* ImmutableQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473B31F2E88DA00832C54 /* ImmutableQueue.swift */; };
+		B3D473B91F2E88DA00832C54 /* Memoize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473B41F2E88DA00832C54 /* Memoize.swift */; };
+		B3D473C21F2E890500832C54 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473BC1F2E890500832C54 /* BFS.swift */; };
+		B3D473C41F2E890500832C54 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473BD1F2E890500832C54 /* DFS.swift */; };
+		B3D473C61F2E890500832C54 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473BE1F2E890500832C54 /* Edge.swift */; };
+		B3D473C81F2E890500832C54 /* FindPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473BF1F2E890500832C54 /* FindPath.swift */; };
+		B3D473CA1F2E890500832C54 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473C01F2E890500832C54 /* Graph.swift */; };
+		B3D473CC1F2E890500832C54 /* SimpleGraphAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D473C11F2E890500832C54 /* SimpleGraphAnnotation.swift */; };
 		B40B8D8D22673D897DC632D2EE7633CD /* ImmutableGraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9989843FFA59BCFAF71B8C97C4AB5DEA /* ImmutableGraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C62479DC57C68048047651E2B730AE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CAC29E50FB6EDC65C8AC324121B5D31F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCF19ED3A052BB4AAFFCA552ED2C07 /* ReplaceMe.swift */; };
 		CC97A981F92CC9CCCCC6E2C4EC0B4123 /* Pods-ImmutableGraph_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB64A58D203AE031ABEBD5E057410AC3 /* Pods-ImmutableGraph_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +45,19 @@
 		482A242AE91AE06F143D54AA12DBC68E /* ImmutableGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImmutableGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		491121B6A3DE79CDE6258ED31CB0112E /* Pods-ImmutableGraph_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImmutableGraph_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FCCF19ED3A052BB4AAFFCA552ED2C07 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		902E770BB5F2633B89D5B33A9573C1D5 /* ImmutableGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImmutableGraph-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9989843FFA59BCFAF71B8C97C4AB5DEA /* ImmutableGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImmutableGraph-umbrella.h"; sourceTree = "<group>"; };
 		9B4658D495D09D9930E7BE789FC975CF /* ImmutableGraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImmutableGraph.xcconfig; sourceTree = "<group>"; };
+		B3D473B21F2E88DA00832C54 /* Array+ToSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+ToSet.swift"; sourceTree = "<group>"; };
+		B3D473B31F2E88DA00832C54 /* ImmutableQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmutableQueue.swift; sourceTree = "<group>"; };
+		B3D473B41F2E88DA00832C54 /* Memoize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memoize.swift; sourceTree = "<group>"; };
+		B3D473BC1F2E890500832C54 /* BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		B3D473BD1F2E890500832C54 /* DFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		B3D473BE1F2E890500832C54 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		B3D473BF1F2E890500832C54 /* FindPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPath.swift; sourceTree = "<group>"; };
+		B3D473C01F2E890500832C54 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		B3D473C11F2E890500832C54 /* SimpleGraphAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleGraphAnnotation.swift; sourceTree = "<group>"; };
 		B6ADBCD5C084555D75664067069C8846 /* Pods-ImmutableGraph_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImmutableGraph_Tests.modulemap"; sourceTree = "<group>"; };
 		C40FF340938DF9309AC0DDB60D823B0D /* Pods-ImmutableGraph_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImmutableGraph_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5F0E0171883C181597C54CF9BD31290 /* Pods_ImmutableGraph_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImmutableGraph_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +89,8 @@
 		2A17EDC11F5F2130CB41E68968DFC31E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7FCCF19ED3A052BB4AAFFCA552ED2C07 /* ReplaceMe.swift */,
+				B3D473BB1F2E890500832C54 /* Graphs */,
+				B3D473B11F2E88DA00832C54 /* Utils */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -130,6 +147,29 @@
 				E47FD752355E64CD4A9D76BDE7EC2373 /* ImmutableGraph */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B3D473B11F2E88DA00832C54 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B3D473B41F2E88DA00832C54 /* Memoize.swift */,
+				B3D473B31F2E88DA00832C54 /* ImmutableQueue.swift */,
+				B3D473B21F2E88DA00832C54 /* Array+ToSet.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B3D473BB1F2E890500832C54 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				B3D473BE1F2E890500832C54 /* Edge.swift */,
+				B3D473C01F2E890500832C54 /* Graph.swift */,
+				B3D473BC1F2E890500832C54 /* BFS.swift */,
+				B3D473BD1F2E890500832C54 /* DFS.swift */,
+				B3D473BF1F2E890500832C54 /* FindPath.swift */,
+				B3D473C11F2E890500832C54 /* SimpleGraphAnnotation.swift */,
+			);
+			path = Graphs;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -244,7 +284,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					C6738703EF2B84C4E3E82E15A453EAF9 = {
 						LastSwiftMigration = 0900;
@@ -277,8 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D473B71F2E88DA00832C54 /* ImmutableQueue.swift in Sources */,
+				B3D473C21F2E890500832C54 /* BFS.swift in Sources */,
+				B3D473C61F2E890500832C54 /* Edge.swift in Sources */,
+				B3D473CC1F2E890500832C54 /* SimpleGraphAnnotation.swift in Sources */,
+				B3D473B51F2E88DA00832C54 /* Array+ToSet.swift in Sources */,
+				B3D473C41F2E890500832C54 /* DFS.swift in Sources */,
+				B3D473B91F2E88DA00832C54 /* Memoize.swift in Sources */,
+				B3D473CA1F2E890500832C54 /* Graph.swift in Sources */,
 				61C60B63E08E40565B9CDE5E2476DBBA /* ImmutableGraph-dummy.m in Sources */,
-				CAC29E50FB6EDC65C8AC324121B5D31F /* ReplaceMe.swift in Sources */,
+				B3D473C81F2E890500832C54 /* FindPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +360,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -320,15 +370,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -346,6 +402,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -377,7 +434,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -413,7 +470,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -431,7 +488,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -439,14 +498,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -460,6 +525,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -496,7 +562,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -536,7 +602,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
