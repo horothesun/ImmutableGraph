@@ -185,7 +185,7 @@ class DFSTests: XCTestCase {
     }
     
     
-    // MARK: - dfs(_ graph:from:)
+    // MARK: - dfs(_ graph:source:)
     func testDFSFromSource_WithEmptyGraphAndSourceV_MustReturnEmptySimpleGraphAnnotation() {
         
         // given
@@ -196,7 +196,7 @@ class DFSTests: XCTestCase {
         let s = 3
         
         // when
-        let result = dfs(graph, from: s)
+        let result = dfs(graph, source: s)
         
         // then
         let expectedAnnotation = SimpleGraphAnnotation(
@@ -217,7 +217,7 @@ class DFSTests: XCTestCase {
         let graph = Graph(vertices: vertices, edges: edges)
         
         // when
-        let result = dfs(graph, from: vA)
+        let result = dfs(graph, source: vA)
         
         // then
         let expectedParentByVertex = [vA: nil as V?, vZ: vA]
@@ -240,7 +240,7 @@ class DFSTests: XCTestCase {
         let graph = Graph(vertices: vertices, edges: edges)
         
         // when
-        let result = dfs(graph, from: vA)
+        let result = dfs(graph, source: vA)
         
         // then
         let expectedParentByVertex = [vA: nil as V?, vZ: nil as V?]
@@ -279,7 +279,7 @@ class DFSTests: XCTestCase {
         let graph = Graph(vertices: verticesList.toSet(), edges: edges)
         
         // when
-        let result = dfs(graph, from: vA)
+        let result = dfs(graph, source: vA)
         
         // then
         let expectedParentByVertex = [

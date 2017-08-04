@@ -6,22 +6,22 @@ public func dfs<G, V>(_ graph: G) -> SimpleGraphAnnotation<V>
         .reduce(SimpleGraphAnnotation(graph)) { partialAnnotation, v in
             return partialAnnotation.discoveredByVertex[v]! ?
                 partialAnnotation :
-                dfsAux(graph, from: v, annotation: partialAnnotation)
+                dfsAux(graph, source: v, annotation: partialAnnotation)
     }
 }
 
-public func dfs<G, V>(_ graph: G, from s: V) -> SimpleGraphAnnotation<V>
+public func dfs<G, V>(_ graph: G, source s: V) -> SimpleGraphAnnotation<V>
     where G: GraphProtocol, V == G.V {
     
     return dfsAux(
         graph,
-        from: s,
+        source: s,
         annotation: SimpleGraphAnnotation(graph))
 }
 
 private func dfsAux<G, V>(
     _ graph: G,
-    from s: V,
+    source s: V,
     annotation: SimpleGraphAnnotation<V>) -> SimpleGraphAnnotation<V>
     where G: GraphProtocol, V == G.V {
         
@@ -33,7 +33,7 @@ private func dfsAux<G, V>(
                 partialAnnotation :
                 dfsAux(
                     graph,
-                    from: v,
+                    source: v,
                     annotation: partialAnnotation.associate(parent: s, to: v))
     }
 }
