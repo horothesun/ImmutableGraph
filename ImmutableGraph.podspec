@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImmutableGraph'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Functional Swift graph algorithms.'
 
 # This description is used to generate tags and improve search results.
@@ -28,10 +28,10 @@ Functional Swift graph algorithms: DFS, BFS and FindPath on immutable graphs dev
   s.source           = { :git => 'https://github.com/horothesun/ImmutableGraph.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ImmutableGraph/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'ImmutableGraph' => ['ImmutableGraph/Assets/*.png']
   # }

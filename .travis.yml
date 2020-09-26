@@ -1,5 +1,4 @@
-
-osx_image: xcode9
+osx_image: xcode12
 
 language: swift
 
@@ -12,7 +11,7 @@ language: swift
 # - pod install --project-directory=Example
 
 script:
-  - xcodebuild -scheme ImmutableGraph-Example -workspace Example/ImmutableGraph.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11.0' build test
+  - xcodebuild -scheme ImmutableGraph-Example -workspace Example/ImmutableGraph.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=9.0' build test
   - pod lib lint
 
 after_success:
