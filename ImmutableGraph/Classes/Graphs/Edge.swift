@@ -13,7 +13,7 @@ public protocol Weightable { var weight: Double { get } }
 public protocol WeightedEdgeProtocol: EdgeProtocol, Weightable { }
 
 
-public struct Edge<V>: EdgeProtocol
+public struct Edge<V>: EdgeProtocol, Hashable
     where V: Equatable {
 
     public let source: V
@@ -25,10 +25,8 @@ public struct Edge<V>: EdgeProtocol
         self.destination = destination
     }
 
-    public var hashValue: Int {
-        get {
-            return "\(source)->\(destination)".hashValue
-        }
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine("\(source)->\(destination)")
     }
 
     public static func ==(lhs: Edge, rhs: Edge) -> Bool {
@@ -41,7 +39,7 @@ public struct Edge<V>: EdgeProtocol
 }
 
 
-public struct WeightedEdge<V>: WeightedEdgeProtocol
+public struct WeightedEdge<V>: WeightedEdgeProtocol, Hashable
     where V: Equatable {
 
     public let source: V
@@ -56,10 +54,8 @@ public struct WeightedEdge<V>: WeightedEdgeProtocol
         self.weight = weight
     }
 
-    public var hashValue: Int {
-        get {
-            return "\(source)-(\(weight))->\(destination)".hashValue
-        }
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine("\(source)-(\(weight))->\(destination)")
     }
 
     public static func ==(lhs: WeightedEdge, rhs: WeightedEdge) -> Bool {

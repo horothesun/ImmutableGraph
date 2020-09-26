@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ImmutableGraph: df24e5e00d06c29b108eff315840e3042389aa8c
+  ImmutableGraph: 5e26222f4fdafc7b9e5b8196dbc16758bba6b563
 
 PODFILE CHECKSUM: a68ff2910ea3747fe37b2fd2552bb335e940447a
 
