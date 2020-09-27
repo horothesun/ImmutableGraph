@@ -1,6 +1,0 @@
-framework module Pods_ImmutableGraph_Tests {
-  umbrella header "Pods-ImmutableGraph_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

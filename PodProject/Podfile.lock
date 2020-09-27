@@ -1,0 +1,16 @@
+PODS:
+  - ImmutableGraph (0.1.4)
+
+DEPENDENCIES:
+  - ImmutableGraph (from `../`)
+
+EXTERNAL SOURCES:
+  ImmutableGraph:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImmutableGraph: 45f8ed02311ba2b5f35435777810220844065459
+
+PODFILE CHECKSUM: 0beb90ebad3195632f9919af321c1ca9248251da
+
+COCOAPODS: 1.9.3

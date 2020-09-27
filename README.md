@@ -1,7 +1,5 @@
 # ImmutableGraph
 
-[![CI Status](http://img.shields.io/travis/horothesun/ImmutableGraph.svg?style=flat)](https://travis-ci.org/horothesun/ImmutableGraph)
-[![codecov.io](https://codecov.io/gh/horothesun/ImmutableGraph/branch/master/graphs/badge.svg)](https://codecov.io/gh/horothesun/ImmutableGraph/branch/master)
 [![Version](https://img.shields.io/cocoapods/v/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
 [![License](https://img.shields.io/cocoapods/l/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
 [![Platform](https://img.shields.io/cocoapods/p/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
@@ -54,16 +52,51 @@ let parentByVertex = simpleGraphAnnotation.parentByVertex
 let result = findPath(parentByVertex: parentByVertex, source: s, destination: d)
 ```
 
-## Requirements
+## CocoaPods installation
 
-Xcode 9 beta or higher (Swift 4).
-
-## Installation
-
-ImmutableGraph is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+ImmutableGraph is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your `Podfile`:
 
 ```ruby
 pod "ImmutableGraph"
+```
+
+## Generate Xcode project
+
+```bash
+swift package generate-xcodeproj
+```
+
+## Testing
+
+### macOS
+
+```bash
+swift test
+```
+
+### Docker Linux
+
+IMPORTANT: regenerate Linux test list executing
+
+```bash
+swift test --generate-linuxmain
+```
+
+Execute on base `swift:5.3` image
+
+```bash
+docker run --rm \
+    --volume "$(pwd):/package" \
+    --workdir "/package" \
+    swift:5.3 \
+    /bin/bash -c "swift test --build-path ./.build/linux"
+```
+
+or create a new image based on `Dockerfile` and run it
+
+```bash
+docker build --tag immutable-graph .
+docker run --rm immutable-graph
 ```
 
 ## Notes
