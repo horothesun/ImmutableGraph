@@ -1,5 +1,5 @@
 PODS:
-  - ImmutableGraph (0.1.4)
+  - ImmutableGraph (0.1.5)
 
 DEPENDENCIES:
   - ImmutableGraph (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ImmutableGraph: 45f8ed02311ba2b5f35435777810220844065459
+  ImmutableGraph: 414731beedddfd54a7481b2228e357ab336c7763
 
 PODFILE CHECKSUM: 0beb90ebad3195632f9919af321c1ca9248251da
 
