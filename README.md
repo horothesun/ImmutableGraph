@@ -84,13 +84,13 @@ IMPORTANT: regenerate Linux test list executing
 swift test --generate-linuxmain
 ```
 
-Execute on base `swift:5.3` image
+Execute on base `swift:5.2` image
 
 ```bash
 docker run --rm \
     --volume "$(pwd):/package" \
     --workdir "/package" \
-    swift:5.3 \
+    swift:5.2 \
     /bin/bash -c "swift test --build-path ./.build/linux"
 ```
 
