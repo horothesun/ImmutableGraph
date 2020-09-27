@@ -2,8 +2,11 @@
 
 ![CI Linux](https://github.com/horothesun/ImmutableGraph/workflows/CI%20Linux/badge.svg)
 ![CI macOS](https://github.com/horothesun/ImmutableGraph/workflows/CI%20macOS/badge.svg)
+
+[![SwiftPM](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![Version](https://img.shields.io/cocoapods/v/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
 [![Platform](https://img.shields.io/cocoapods/p/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
+
 [![License](https://img.shields.io/cocoapods/l/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
 
 ## Examples
@@ -56,10 +59,20 @@ let result = findPath(parentByVertex: parentByVertex, source: s, destination: d)
 
 ## CocoaPods installation
 
-ImmutableGraph is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your `Podfile`:
+`ImmutableGraph` is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your `Podfile`:
 
 ```ruby
 pod "ImmutableGraph"
+```
+
+## Swift Package installation
+
+If your package depends on `ImmutableGraph`, add the following dependency to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/horothesun/ImmutableGraph", .upToNextMinor(from: "0.1.0"))
+]
 ```
 
 ## Generate Xcode project
@@ -117,4 +130,4 @@ Nicola Di Pol, horothesun@gmail.com
 
 ## License
 
-ImmutableGraph is available under the MIT license. See the LICENSE file for more info.
+`ImmutableGraph` is available under the MIT license. See the LICENSE file for more info.
