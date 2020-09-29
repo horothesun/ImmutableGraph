@@ -1,0 +1,37 @@
+# How to update COCOAPODS_TRUNK_TOKEN
+#
+# Register the email with:
+#   pod trunk register <email> --description='Push to CocoaPods GitHub Action'
+# 
+# Click the link on the confirmation email.
+#
+# Extract the value from the "password <COCOAPODS_TRUNK_TOKEN>" like output of the following command:
+#   grep -A2 'trunk.cocoapods.org' ~/.netrc | grep password
+#
+# IMPORTANT: register again to locally use a separate token:
+#   pod trunk register <email> --description='<Machine description>'
+#
+
+name: Push to CocoaPods
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Install Cocoapods
+      run: gem install cocoapods
+      
+    - name: Deploy to Cocoapods
+      run: |
+        set -eo pipefail
+        pod lib lint
+#        pod trunk push
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
