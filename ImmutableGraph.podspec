@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ImmutableGraph'
-  s.version = '0.1.6'
+  s.version = 'x.y.z' # updated by the "Deploy to CocoaPods" GitHub Action
   s.summary = 'Functional Swift graph algorithms.'
 
   s.description = <<-DESC

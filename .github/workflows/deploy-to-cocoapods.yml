@@ -33,23 +33,15 @@ jobs:
         fastlane run version_bump_podspec path:ImmutableGraph.podspec version_number:$GITHUB_TAG
 
     - name: Check for changes
-      run: |
-        git status
-        git diff
+      run: git diff
 
-    - name: Push updated Podspec
-      run: |
-        git add ImmutableGraph.podspec
-        git commit -m "Podspec version bumped to ${GITHUB_TAG}"
-        git push origin master
+    - name: Pod infos
+      run: pod trunk info ImmutableGraph
 
-#     - name: Pod infos
-#       run: pod trunk info ImmutableGraph
+    - name: Validation
+      run: pod lib lint ImmutableGraph.podspec
 
-#     - name: Validation
-#       run: pod lib lint ImmutableGraph.podspec
-
-#     - name: Deploy
-#       run: pod trunk push ImmutableGraph.podspec
-#       env:
-#         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+    - name: Deploy
+      run: pod trunk push ImmutableGraph.podspec
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
