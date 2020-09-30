@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.5'
   s.summary          = 'Functional Swift graph algorithms.'
 
-  s.description      = <<-DEESC
+  s.description      = <<-DESC
 Functional Swift graph algorithms: DFS, BFS and FindPath on immutable graphs developed using TDD.
 DESC
 

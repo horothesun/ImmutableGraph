@@ -31,10 +31,7 @@ jobs:
     - name: Validation
       run: pod lib lint ImmutableGraph.podspec
 
-    - name: Echo
-      run: echo "Should not be executed if validation fails"
-
-#    - name: Deploy
-#      run: pod trunk push ImmutableGraph.podspec
-#      env:
-#        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+   - name: Deploy
+     run: pod trunk push ImmutableGraph.podspec
+     env:
+       COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
