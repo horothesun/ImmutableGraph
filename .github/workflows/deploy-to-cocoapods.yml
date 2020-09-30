@@ -27,13 +27,18 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Update Podspec version
-      run: fastlane run version_bump_podspec path:ImmutableGraph.podspec version_number:${${{ github.ref }}#"refs/tags/"}
-      
+      run: |
+        GITHUB_TAG=${${{ github.ref }}#refs/tags/}
+        fastlane run version_bump_podspec path:ImmutableGraph.podspec version_number:$GITHUB_TAG
+
 #     - name: switching from HTTPS to SSH
 #       run: git remote set-url origin ${{ secrets.ssh }}
 
-    - name: check for changes
+    - name: Check for changes
       run: git status
+
+    - name: Check diffs
+      run: git diff
 
 #     - name: Pod infos
 #       run: pod trunk info ImmutableGraph
