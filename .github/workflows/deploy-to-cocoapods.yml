@@ -29,7 +29,8 @@ jobs:
     - name: Update Podspec version
       run: |
         GITHUB_TAG=${${{ github.ref }}#refs/tags/}
-        fastlane run version_bump_podspec path:ImmutableGraph.podspec version_number:$GITHUB_TAG
+        echo "GITHUB_TAG: $GITHUB_TAG"
+#        fastlane run version_bump_podspec path:ImmutableGraph.podspec version_number:$GITHUB_TAG
 
 #     - name: switching from HTTPS to SSH
 #       run: git remote set-url origin ${{ secrets.ssh }}
