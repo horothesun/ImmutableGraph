@@ -28,7 +28,7 @@ jobs:
 
     - name: Update Podspec version
       run: |
-        GITHUB_TAG=${${{ github.ref }}#refs/tags/}
+        GITHUB_TAG=${GITHUB_REF#refs/tags/}
         echo "GITHUB_TAG: $GITHUB_TAG"
 #        fastlane run version_bump_podspec path:ImmutableGraph.podspec version_number:$GITHUB_TAG
 
