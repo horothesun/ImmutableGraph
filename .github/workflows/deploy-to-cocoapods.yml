@@ -28,11 +28,14 @@ jobs:
     - name: Setup
       run: gem install cocoapods
 
-    - name: Info
+    - name: Pod infos
       run: pod trunk info ImmutableGraph
 
-    - name: Lint
+    - name: Validation
       run: pod lib lint ImmutableGraph.podspec
+
+    - name: Echo
+      run: echo "Should not be executed if validation fails"
 
 #    - name: Deploy
 #      run: pod trunk push ImmutableGraph.podspec
