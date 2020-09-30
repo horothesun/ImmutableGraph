@@ -5,14 +5,14 @@ Pod::Spec.new do |s|
   s.version          = '0.1.5'
   s.summary          = 'Functional Swift graph algorithms.'
 
-  s.description      = <<-DESC
+  s.description      = <<-DEESC
 Functional Swift graph algorithms: DFS, BFS and FindPath on immutable graphs developed using TDD.
-                       DESC
+DESC
 
   s.homepage         = 'https://github.com/horothesun/ImmutableGraph'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'horothesun' => 'horothesun@gmail.com' }
-  s.source           = { :git => 'https://github.com/WRONG_TO_TEST_GITHUB_ACTION/ImmutableGraph.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/horothesun/ImmutableGraph.git', :tag => s.version.to_s }
 
   s.swift_versions = '5.0'
 
