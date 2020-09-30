@@ -1,18 +1,16 @@
-# Be sure to run `pod lib lint ImmutableGraph.podspec` to ensure this is a valid spec before submitting.
-
 Pod::Spec.new do |s|
-  s.name             = 'ImmutableGraph'
-  s.version          = '0.1.5'
-  s.summary          = 'Functional Swift graph algorithms.'
+  s.name = 'ImmutableGraph'
+  s.version = '0.1.6'
+  s.summary = 'Functional Swift graph algorithms.'
 
-  s.description      = <<-DESC
+  s.description = <<-DESC
 Functional Swift graph algorithms: DFS, BFS and FindPath on immutable graphs developed using TDD.
 DESC
 
-  s.homepage         = 'https://github.com/horothesun/ImmutableGraph'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'horothesun' => 'horothesun@gmail.com' }
-  s.source           = { :git => 'https://github.com/horothesun/ImmutableGraph.git', :tag => s.version.to_s }
+  s.homepage = 'https://github.com/horothesun/ImmutableGraph'
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
+  s.author = { 'horothesun' => 'horothesun@gmail.com' }
+  s.source = { :git => 'https://github.com/horothesun/ImmutableGraph.git', :tag => s.version.to_s }
 
   s.swift_versions = '5.0'
 
