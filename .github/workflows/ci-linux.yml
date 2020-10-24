@@ -22,4 +22,17 @@ jobs:
     - name: Build
       run: swift build -v
     - name: Run tests
-      run: swift test -v
+      run: swift test --enable-code-coverage -v
+
+    - name: Generate Codecov
+      run: |
+        /usr/lib/llvm-9/bin/llvm-cov export \
+          -format="lcov" .build/x86_64-unknown-linux-gnu/debug/ImmutableGraphPackageTests.xctest \
+          -instr-profile=.build/x86_64-unknown-linux-gnu/debug/codecov/default.profdata \
+          > info.lcov
+    - name: Print Codecov
+      run: cat info.lcov
+    # - name: Upload to codecov.io
+    #   run: bash <(curl -s https://codecov.io/bash) -f info.lcov
+    #   env:
+    #     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

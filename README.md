@@ -1,7 +1,7 @@
 # ImmutableGraph
 
-![CI Linux](https://github.com/horothesun/ImmutableGraph/workflows/CI%20Linux/badge.svg)
-![CI macOS](https://github.com/horothesun/ImmutableGraph/workflows/CI%20macOS/badge.svg)
+[![CI Linux](https://github.com/horothesun/ImmutableGraph/workflows/CI%20Linux/badge.svg)](https://github.com/horothesun/ImmutableGraph/blob/master/.github/workflows/ci-linux.yml)
+[![CI macOS](https://github.com/horothesun/ImmutableGraph/workflows/CI%20macOS/badge.svg)](https://github.com/horothesun/ImmutableGraph/blob/master/.github/workflows/ci-macos.yml)
 
 [![SwiftPM](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![Version](https://img.shields.io/cocoapods/v/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
@@ -102,9 +102,9 @@ Execute on base `swift:5.2` image
 ```bash
 docker run --rm \
     --volume "$(pwd):/package" \
-    --workdir "/package" \
+    --workdir '/package' \
     swift:5.2 \
-    /bin/bash -c "swift test --build-path ./.build/linux"
+    /bin/bash -c 'swift test'
 ```
 
 or create a new image based on `Dockerfile` and run it
