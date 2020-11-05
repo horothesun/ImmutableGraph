@@ -2,6 +2,7 @@
 
 [![CI Linux](https://github.com/horothesun/ImmutableGraph/workflows/CI%20Linux/badge.svg)](https://github.com/horothesun/ImmutableGraph/blob/master/.github/workflows/ci-linux.yml)
 [![CI macOS](https://github.com/horothesun/ImmutableGraph/workflows/CI%20macOS/badge.svg)](https://github.com/horothesun/ImmutableGraph/blob/master/.github/workflows/ci-macos.yml)
+[![codecov](https://codecov.io/gh/horothesun/ImmutableGraph/branch/master/graph/badge.svg?token=Z60dMMK1Lp)](https://codecov.io/gh/horothesun/ImmutableGraph)
 
 [![SwiftPM](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![Version](https://img.shields.io/cocoapods/v/ImmutableGraph.svg?style=flat)](http://cocoapods.org/pods/ImmutableGraph)
