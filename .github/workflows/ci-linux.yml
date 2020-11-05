@@ -32,7 +32,7 @@ jobs:
           > info.lcov
     - name: Print Codecov
       run: cat info.lcov
-    # - name: Upload to codecov.io
-    #   run: bash <(curl -s https://codecov.io/bash) -f info.lcov
-    #   env:
-    #     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+    - name: Upload to codecov.io
+      run: bash <(curl -s https://codecov.io/bash) -f info.lcov
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
