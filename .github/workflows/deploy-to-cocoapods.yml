@@ -2,7 +2,7 @@
 #
 # 1) Register the email with:
 #      pod trunk register <email> --description='Deploy to CocoaPods GitHub Action'
-# 
+#
 # 2) Click the link on the confirmation email.
 #
 # 3) Extract the value from the "password <COCOAPODS_TRUNK_TOKEN>" like output of the following command:
@@ -45,3 +45,4 @@ jobs:
       run: pod trunk push ImmutableGraph.podspec
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+
